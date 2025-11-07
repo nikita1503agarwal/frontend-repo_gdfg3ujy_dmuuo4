@@ -1,4 +1,5 @@
 import Hero from './components/Hero';
+import InteractiveShowcase from './components/InteractiveShowcase';
 import Features from './components/Features';
 import Pricing from './components/Pricing';
 import Contact from './components/Contact';
@@ -7,6 +8,7 @@ function App() {
   return (
     <div className="min-h-screen bg-white text-gray-900">
       <Hero />
+      <InteractiveShowcase />
       <Features />
       <Pricing />
       <Contact />
